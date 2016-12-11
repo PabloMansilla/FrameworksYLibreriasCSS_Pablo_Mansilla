@@ -1,5 +1,13 @@
 body{
-  max-width: 1300px;
   background-color: #d9534f;
-  margin: 0 auto;
+}
+#cabezera{
+  background-color: gray;
+}
+#contenedor1{
+  border-radius: 5px;
+  height: 100%;
+}
+#contenedor2{
+  border-radius: 5px;
 }
