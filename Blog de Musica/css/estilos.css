@@ -1,13 +1,28 @@
 body{
-  background-color: #d9534f;
+  background-color: #428bca;
 }
 #cabezera{
-  background-color: gray;
+  background-color: white;
+}
+#social{
 }
 #contenedor1{
   border-radius: 5px;
   height: 100%;
 }
-#contenedor2{
+#search{
   border-radius: 5px;
+}
+#cuerpo{
+
+}
+#barraNavegacion nav{
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+#listaSearch{
+  margin-top: 5px;
+}
+#imgCharly{
+  margin-top: 10px;
 }

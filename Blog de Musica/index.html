@@ -7,39 +7,51 @@
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Blog de Musica</title>
+    <style media="screen">
+      #navItem{
+        transition: backgroung 1s;
+        border-radius: 10px;
+      }
+      #navItem:hover{
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
-    <header class="container" style="background-color:grey">
-      <div id="cabezera">
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
+    <header class="container">
+      <div id="cabezera" class="container col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:white">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 text-center">
           <img src="imagenes/PMlogo.png" alt="PM" width="150px">
-        </div>
-        <div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12 text-center">
-          <a href="#"><i class="iconfacebook">face</i></a>
+        </div></br></br></br></br></br></br>
+        <div id="social" class="col-lg-4 col-lg-offset-6 col-md-12 col-sm-12 col-xs-12 text-center">
+          <a href="URL-FACEBOOK" target="_blank"><img alt="siguenos en facebook" height="32" src="http://2.bp.blogspot.com/-q_Tm1PpPfHo/UiXnJo5l-VI/AAAAAAAABzU/MKdrVYZjF0c/s1600/face.png" title="siguenos en facebook" width="32" /></a>
+          <a href="URL-youtube" target="_blank"><img alt="Canal de youtube" height="32" src="http://4.bp.blogspot.com/-XWyVHd85Urk/UiXnJChMVWI/AAAAAAAABzI/RHztkyc7gAU/s1600/YouTube+alt+1.png" title="Canal de youtube" width="32" /></a>
+          <a href="URL-Instagram" target="_blank"><img alt="sígueme en Instagram" height="32" src="http://2.bp.blogspot.com/-kQop92g4NsM/UidPJ06ER1I/AAAAAAAACAA/0mj0jK5hhXM/s1600/instagram2.png" title="sígueme en Instagram" width="32" /></a>
+          <a href="URL-Pinterest" target="_blank"><img alt="Sígueme en Pinterest" height="32" src="http://2.bp.blogspot.com/-jKx3RnQCslA/UiYMDLz_40I/AAAAAAAAB9Y/ekDWhiimFuA/s1600/Sin+t%25C3%25ADtulo.png" title="Sígueme en Pinterest" width="32" /></a>
+          <a href="URL-Twitter" target="_blank"><img alt="siguenos en Twitter" height="32" src="http://3.bp.blogspot.com/-wlwaJJG-eOY/UiXnHS2jLsI/AAAAAAAAByQ/I2tLyZDLNL4/s1600/Twitter+NEW.png" title="siguenos en Twitter" width="32" /></a>
+
         </div>
       </div>
     </header>
-    <section class="container" style="background-color:grey">
-
-        <nav class="navbar navbar-default text-center col-lg-12">
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Inicio</a>
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Artistas</a>
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Grupos</a>
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Top 10</a>
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Letras</a>
-          <a class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Acordes</a>
+    <section id="barraNavegacion" class="container">
+        <nav class=" navbar navbar-default text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Inicio</a>
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Artistas</a>
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Grupos</a>
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Top 10</a>
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Letras</a>
+          <a id="navItem" class="navbar-brand col-lg-2 col-md-12 col-sm-12 col-xs-12" href="#">Acordes</a>
         </nav>
-
     </section>
-    <section class="container" style="background-color:grey">
-      <div id="contenedor1" class="container col-lg-9" style="background-color:white">
+    <section id="cuerpo" class="container">
+      <div id="contenedor1" class="container col-lg-9 col-md-12 col-sm-12 col-xs-12" style="background-color:white">
         <div class="">
           <article class="col-lg-8">
-            <h2>banda</h2>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 class="text-primary">The Beatles</h2>
+            <p class="text-justify lead">The Beatles fue una banda de pop/rock inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y críticamente aclamada en la historia de la música popular. Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista).</p>
           </article>
           <article class="col-lg-4 text-center">
-            <img src="imagenes/PMlogo.png" alt="">
+            <img src="imagenes/theBeatles.png" alt="The Beatles" width="100%">
           </article>
           <div class="col-lg-12">
             <article class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -49,12 +61,12 @@
                 <textarea name="textarea" class="form-control" rows="2" cols="80" placeholder="Comentario"></textarea>
             </article>
           </div>
-          <article class="col-lg-4 text-center">
-            <img src="imagenes/PMlogo.png" alt="">
+          <article id="imgCharly" class="col-lg-4 text-center">
+            <img src="imagenes/Charly.jpg" width="100%" >
           </article>
           <article class="col-lg-8">
-            <h2>banda</h2>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 class="text-primary">Musica del Alma</h2>
+            <p class="text-justify lead">Música del alma es el primer álbum en vivo de la etapa solista del músico argentino Charly García grabado junto a diferentes artistas, como David Lebón, el grupo acústico Porsuigieco y el sinfónico La máquina de hacer pájaros. Además, es el primer lanzamiento de García como solista. Durante algunos temas, se dio una reunión de Sui Generis como dúo.</p>
           </article>
           <div class="col-lg-12" style="background-color:white">
             <article class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -69,13 +81,30 @@
           </div>
         </div>
       </div>
-      <div id="contenedor2" class="col-lg-3 visible-lg" style="background-color:white">
-        <article class="col-lg-8">
+      <div id="search" class="col-lg-3 visible-lg" style="background-color:white">
+        <article class="col-lg-2">
+          <button type="buscar" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+        </article>
+        <article class="col-lg-10">
           <input type="text" class="form-control" placeholder="Buscar">
         </article>
-        <article class="col-lg-4">
-          <button type="buscar" class="btn btn-default">Buscar</button>
-        </article>
+      </div>
+      <div id="listaSearch" class="col-lg-3 visible-lg">
+        <div class="list-group">
+          <a href="#" class="list-group-item">The Beatles</a>
+          <a href="#" class="list-group-item">John Lennon</a>
+          <a href="#" class="list-group-item">Paul McCartney</a>
+          <a href="#" class="list-group-item">George Harrison</a>
+          <a href="#" class="list-group-item">Ringo Starr</a>
+          <a href="#" class="list-group-item">Charly Garcia</a>
+          <a href="#" class="list-group-item">Musica del Alma</a>
+          <a href="#" class="list-group-item">David Lebon</a>
+          <a href="#" class="list-group-item">U2</a>
+          <a href="#" class="list-group-item">Pablo Mansilla</a>
+          <a href="#" class="list-group-item">Soledad</a>
+          <a href="#" class="list-group-item">Andres Calamaro</a>
+          <a href="#" class="list-group-item">Leon Gieco</a>
+        </div>
       </div>
     </section>
 
