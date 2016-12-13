@@ -1,0 +1,51 @@
+body{
+  background-image: url(../imagenes/cocinaFondo.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+}
+#cabezera{
+  background-color:rgba(40, 114, 181, 0.5);
+  color: white;
+}
+#titulo{
+  box-shadow: 1px 0 0 0;
+}
+#cuerpo{
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 0 white;
+}
+img{
+  margin: 5px;
+}
+#enlaces a{
+  border-radius: 2px;
+  margin: 4px;
+  text-align: center;
+  box-shadow: 0 0 1px 1px;
+  color: pink;
+}
+#coment{
+  margin: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px;
+}
+#izq{
+  margin-top: 10px;
+  border-radius: 5px;
+}
+#plato1{
+  border-radius: 5px;
+}
+#plato2{
+  border-radius: 5px;
+}
+#imagen div img{
+  background-color: white;
+  border-radius: 2px;
+  padding: 3px;
+  box-shadow: 0 0 0 1px;
+}
+#public{
+  border-radius: 5px;
+  box-shadow: 0 -1px 0 0;
+}
